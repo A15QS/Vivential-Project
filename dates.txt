@@ -1,0 +1,48 @@
+def dad():
+    global name,years,work,center_of_work,brothers,dates_of_brothers,who_does_he_live_with,place_of_live,dates_of_parents,eduardo_dates
+    name = "eduardo marcell rivera valdivia"
+    years = 35
+    work = "laboratiorio de suelos"
+    center_of_work = "laboratorio"
+    brothers = ["oscar","karla","gabriel"]
+    dates_of_brothers = {
+	"oscar":"years:43","civil state:married","work:piura's aeropuert",
+        "karla":"years:42","civil state:married","work:catedratica de universidad",
+	"gabriel":"years:19","civil state:soltero","work:student",
+    }
+    who_does_he_live_with = [["franco"],
+                            ["sofia"],
+			                ["luz carina"]]
+    place_of_live = "mno melgar pasaje corintios"
+    dates_of_parents = {
+	"Papá":"years:73","work:counter",
+        "Mamá":"years:63","work:kindergarten assistant",
+    }
+    eduardo_dates = {
+	"civil state":"married",
+        "wife":"luz carina mamani flores"
+	"general date":"strict",
+    }
+def teacher():
+    name = "harold rocha"
+    years = 29
+    work = "teacher"
+    center_of_work = "university"
+    brothers = ("andres","paula")
+    dates_of_brothers = {
+	"brother":"years:27","work:student",
+        "sister":"years:19","work:student",
+    }
+    who_does_he_live_with = ["father"]
+                            ["mother"]
+			    ["sister"]
+    place_of_live = "columbia"
+    dates_of_parents = {
+	"harold":"years:55","work:counter",
+        "floribel":"years:54","work:counter",
+    }
+    harold_dates = {
+	"civil state":"soltero",
+        "wife":"NA",
+	"general date":"recursivo",
+    }
